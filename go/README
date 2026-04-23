@@ -1,0 +1,28 @@
+# Go FizzBuzz Implementations
+
+Progression of FizzBuzz solutions in Go, built as interview prep and to deepen understanding of the language while pursuing 
+Cloud Engineering and Healthtec goals.
+
+### Versions (showing clear progression)
+
+1. **Basic Version** ('FBcleanbasic.go')
+Hard-coded limit (100). Simple loop and modulo logic.
+
+2. **User Input Version** ('FBuserInput.go')
+Accepts runtime input with 'q'/'Q' to exit. Demonstrates scanner, string parsing, and graceful exit.
+
+3.Extensible Ruleset Version** ('FBruleset.go') - **Best**
+Configurable rules via struct/slice (easy to add new words like "Bazz" for %7). Clean seperation of concerns, maintainable, 
+and shows long-term thinking for production code.
+
+### How to Run
+''' bash
+cd go
+go run FBuserInput.go
+# or
+go run FBruleset.go
+#or 
+go run FBcleanbasic.go
+
+This project demonstrates iterative improvement, clean Go idioms (structs, range loops, error handling), and forward-thinking
+design.
